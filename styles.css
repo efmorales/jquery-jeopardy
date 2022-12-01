@@ -1,13 +1,43 @@
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    color: rgb(195, 176, 32);
+    text-align: center;
+    font-size: xx-large;
+}
+
+h2 {
+    font-size: medium;
+}
+
+h3 {
+    font-size: medium;
+}
+
+.subtitle{
+    text-align: center;
+    text-decoration: overline;
+    color: rgb(6, 6, 145);
+    font-style: italic;
+}
+
+.prizeTotal {
+    font-size: xx-large;
+    color: rgb(195, 176, 32);
+}
+
 .container{
     display: flex;
     align-items: center;
 }
 .moneyButton{
-    width: 80px;
-    margin-bottom: 10px;
+    /* width: 80px; */
+    /* margin-bottom: 10px; */
     /* margin-right: 30px; */
-    background-color: blue;
-    color: yellow;
+    background-color: rgb(6, 6, 145);
+    color: rgb(255, 231, 45);
     font-size: medium;
     font-weight: bold;
     align-content: center;
